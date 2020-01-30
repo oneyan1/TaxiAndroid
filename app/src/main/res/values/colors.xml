@@ -3,4 +3,6 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#000000</color>
+    <color name="colorBtnText">#FAC320</color>
+    <color name="colorSignUp">#FFD930</color>
 </resources>

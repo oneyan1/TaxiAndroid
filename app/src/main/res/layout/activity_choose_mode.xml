@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseModeActivity">
+
+    <ImageView
+        android:src="@drawable/taxi_splash_screen3"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Taxi"
+            android:textSize="50sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_marginTop="220dp"
+            android:gravity="center_horizontal"
+            />
+
+        <Button
+            android:id="@+id/passangerBtn"
+            android:onClick="passangerSignIn"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorBtnText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:text="I'am a passanger" />
+
+        <Button
+            android:id="@+id/driverBtn"
+            android:onClick="driverSignIn"
+            android:background="@color/colorBtnText"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I'am a driver" />
+    </LinearLayout>
+
+</FrameLayout>
